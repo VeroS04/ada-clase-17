@@ -1,0 +1,62 @@
+.contenedor {
+    width: 90%;
+    margin: 40px auto;
+    padding: 20px;
+    border: 2px solid;
+}
+
+.elemento {
+    background-color: #fff;
+    width: 150px;
+    height: 150px;
+    transition-property: border-radius,transform;
+    transition-duration: 0.1s;
+    transition: 1s;
+}
+
+.contenedor:hover .elemento {
+    border-radius: 50%; 
+    /* transform: translate(650px); */
+    /* transform: rotate(280deg); */
+    /* transform: rotatey(380deg);*/
+} 
+
+
+  .contenido {
+    background-color: bisque;
+    font-size: 50px;
+    text-align: center;
+    width: 500px;
+    height: 600px;
+    position: relative;
+    left: 2%;
+}  
+ 
+.caja {
+    background: red;
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: 5%;
+    position: relative;
+    top: 10px;
+    transition-property: border-radius,transform;
+    transition-duration: 1s;
+}
+
+.caja1 {
+    background: red;
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin-top: 10%;
+    position: relative;
+    left: 200px;
+    top: 200px
+}
+
+.contenido:hover .caja {
+    border-radius: 50%;
+    background-color: blueviolet;
+    transform: rotatey(380deg); 
+} 
